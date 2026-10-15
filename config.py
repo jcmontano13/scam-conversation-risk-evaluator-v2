@@ -39,3 +39,73 @@ INTERPRETABILITY_REPORT = PROJECT_ROOT / "outputs" / "reports" / "interpretabili
 
 # COMP903: baseline verification against the frozen COMP902 pipeline
 BASELINE_VERIFICATION_REPORT = PROJECT_ROOT / "outputs" / "reports" / "comp902_baseline_verification.md"
+
+
+
+# =============================================================================
+# COMP903 settings
+# Everything below is new for COMP903. The COMP902 settings above are kept
+# unchanged so the original scripts still run.
+# =============================================================================
+
+# Shared feature and target columns
+FEATURE_COLUMNS = [
+    "turn_count",
+    "aggregate_num_urls",
+    "aggregate_money_terms",
+    "ratio_request_messages",
+]
+TARGET_COLUMN = "thread_label"
+
+# Models compared in COMP903 (baselines first, then the new models)
+BASELINE_MODELS = ["Logistic Regression", "Decision Tree"]
+NEW_MODELS = ["Gaussian Naive Bayes", "Random Forest", "k-Nearest Neighbours"]
+MODEL_NAMES = BASELINE_MODELS + NEW_MODELS
+REFERENCE_MODEL = "Logistic Regression"  # every new model is compared with this one
+
+# Evaluation settings
+CV_FOLDS = 5
+CV_REPEATS = 10              # repeated cross-validation: 10 repeats x 5 folds
+PRIMARY_METRIC = "f1"        # used for tuning and for RQ1
+SIGNIFICANCE_ALPHA = 0.05
+
+# Output folders
+REPORTS_DIR = PROJECT_ROOT / "outputs" / "reports"
+FIGURES_DIR = PROJECT_ROOT / "outputs" / "figures"
+DOCS_DIR = PROJECT_ROOT / "docs"
+
+# Five-model baseline cross-validation
+CV_RESULTS_FIVE_MODELS = REPORTS_DIR / "cv_results_five_models.csv"
+CV_SUMMARY_REPORT_FIVE_MODELS = REPORTS_DIR / "cv_summary_report_five_models.md"
+UNIT_TEST_LOG_MODELS = REPORTS_DIR / "unit_test_log_models.txt"
+
+# Tuning and repeated cross-validation
+GRID_SEARCH_RESULTS_FIVE_MODELS = REPORTS_DIR / "grid_search_results_five_models.csv"
+SELECTED_HYPERPARAMS_FIVE_MODELS = REPORTS_DIR / "selected_hyperparams_five_models.json"
+REPEATED_CV_RESULTS = REPORTS_DIR / "repeated_cv_results.csv"
+
+# Significance testing
+SIGNIFICANCE_TESTS = REPORTS_DIR / "significance_tests.csv"
+SIGNIFICANCE_REPORT = REPORTS_DIR / "significance_report.md"
+
+# Held-out test evaluation
+TEST_RESULTS_FIVE_MODELS = REPORTS_DIR / "test_results_five_models.csv"
+MCNEMAR_RESULTS = REPORTS_DIR / "mcnemar_results.csv"
+TEST_EVALUATION_REPORT_FIVE_MODELS = REPORTS_DIR / "test_evaluation_report_five_models.md"
+
+# Calibration
+CALIBRATION_RESULTS_FIVE_MODELS = REPORTS_DIR / "calibration_results_five_models.csv"
+CALIBRATION_REPORT_FIVE_MODELS = REPORTS_DIR / "calibration_report_five_models.md"
+
+# Ablation
+ABLATION_RESULTS_FIVE_MODELS = REPORTS_DIR / "ablation_results_five_models.csv"
+ABLATION_REPORT_FIVE_MODELS = REPORTS_DIR / "ablation_report_five_models.md"
+
+# Interpretability for the new models
+RF_FEATURE_IMPORTANCE = REPORTS_DIR / "rf_feature_importance.csv"
+NB_CLASS_STATISTICS = REPORTS_DIR / "nb_class_statistics.csv"
+KNN_NEIGHBOUR_EXAMPLES = REPORTS_DIR / "knn_neighbour_examples.csv"
+INTERPRETABILITY_REPORT_FIVE_MODELS = REPORTS_DIR / "interpretability_report_five_models.md"
+
+# Project documentation
+CHALLENGES_LOG = DOCS_DIR / "challenges_log.md"
