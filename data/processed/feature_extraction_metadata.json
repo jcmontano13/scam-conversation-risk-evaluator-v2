@@ -1,0 +1,137 @@
+{
+    "generated_at": "2026-06-30T11:55:19",
+    "project_stage": "Week 1 - Feature extraction and reproducibility setup",
+    "random_seed": 42,
+    "script_name": "generate_feature_metadata.py",
+    "feature_extraction_script": "parse_and_features.py",
+    "input_files": {
+        "raw_data": {
+            "path": "C:\\Users\\admin\\Projects\\scam-conversation-risk-evaluator\\data\\raw\\scam-dialogue_all.csv",
+            "exists": true,
+            "size_bytes": 2267350
+        }
+    },
+    "output_files": {
+        "parsed_data": {
+            "path": "C:\\Users\\admin\\Projects\\scam-conversation-risk-evaluator\\data\\processed\\scam_dialogue_parsed.csv",
+            "exists": true,
+            "size_bytes": 3337494
+        },
+        "thread_features": {
+            "path": "C:\\Users\\admin\\Projects\\scam-conversation-risk-evaluator\\data\\processed\\scam_dialogue_thread_features.csv",
+            "exists": true,
+            "size_bytes": 79946
+        },
+        "feature_metadata": "C:\\Users\\admin\\Projects\\scam-conversation-risk-evaluator\\data\\processed\\feature_extraction_metadata.json"
+    },
+    "row_counts": {
+        "raw_rows": 1600,
+        "parsed_turn_rows": 21890,
+        "thread_feature_rows": 1600
+    },
+    "columns": {
+        "raw_columns": [
+            "dialogue",
+            "type",
+            "label"
+        ],
+        "parsed_columns": [
+            "thread_id",
+            "message_id",
+            "turn_index",
+            "speaker_role",
+            "message_text",
+            "thread_label",
+            "type"
+        ],
+        "feature_columns": [
+            "thread_id",
+            "orig_index",
+            "thread_label",
+            "type",
+            "turn_count",
+            "aggregate_num_urls",
+            "aggregate_money_terms",
+            "ratio_request_messages"
+        ]
+    },
+    "structural_features": [
+        "turn_count",
+        "aggregate_num_urls",
+        "aggregate_money_terms",
+        "ratio_request_messages"
+    ],
+    "feature_definitions": {
+        "turn_count": "Number of parsed dialogue turns in a conversation thread.",
+        "aggregate_num_urls": "Total number of URL patterns detected across all turns in a thread.",
+        "aggregate_money_terms": "Total count of money-related keywords and amount patterns across a thread.",
+        "ratio_request_messages": "Proportion of messages in a thread that appear to contain a request."
+    },
+    "redaction_rules": {
+        "email": "Email-like patterns are replaced with [REDACTED_EMAIL].",
+        "phone": "Phone-like number patterns are replaced with [REDACTED_PHONE].",
+        "ssn": "SSN-like patterns are replaced with [REDACTED_SSN].",
+        "amount": "Money amount patterns are replaced with [REDACTED_AMOUNT]."
+    },
+    "label_distribution": {
+        "raw_data": {
+            "0": 800,
+            "1": 800
+        },
+        "parsed_data": {
+            "0": 8565,
+            "1": 13325
+        },
+        "feature_data": {
+            "0": 800,
+            "1": 800
+        }
+    },
+    "feature_summary_statistics": {
+        "turn_count": {
+            "count": 1600.0,
+            "mean": 13.68125,
+            "std": 4.348300329996757,
+            "min": 6.0,
+            "25%": 10.0,
+            "50%": 13.0,
+            "75%": 17.0,
+            "max": 28.0
+        },
+        "aggregate_num_urls": {
+            "count": 1600.0,
+            "mean": 0.006875,
+            "std": 0.08265593976077028,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "max": 1.0
+        },
+        "aggregate_money_terms": {
+            "count": 1600.0,
+            "mean": 3.183125,
+            "std": 4.817841579255357,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 1.0,
+            "75%": 4.0,
+            "max": 27.0
+        },
+        "ratio_request_messages": {
+            "count": 1600.0,
+            "mean": 0.580316749354842,
+            "std": 0.14237009943988538,
+            "min": 0.125,
+            "25%": 0.5,
+            "50%": 0.5909090909090909,
+            "75%": 0.6666666666666666,
+            "max": 1.0
+        }
+    },
+    "excluded_features": {
+        "tf_idf": "Excluded to preserve interpretability and reduce computational complexity.",
+        "deep_learning_embeddings": "Excluded because the project focuses on lightweight explainable structural features.",
+        "llm_features": "Excluded because the project does not include LLM fine-tuning or deployment."
+    }
+}

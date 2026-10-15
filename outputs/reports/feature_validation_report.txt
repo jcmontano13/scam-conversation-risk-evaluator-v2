@@ -1,0 +1,62 @@
+Feature Validation Report
+==============================
+
+[PASS] Parsed CSV exists
+    C:\Users\admin\Projects\scam-conversation-risk-evaluator-v2\data\processed\scam_dialogue_parsed.csv
+
+[PASS] Feature CSV exists
+    C:\Users\admin\Projects\scam-conversation-risk-evaluator-v2\data\processed\scam_dialogue_thread_features.csv
+
+[PASS] Parsed data required columns
+    All required columns exist.
+
+[PASS] Parsed data row count
+    Parsed rows: 21890
+
+[PASS] Parsed data missing labels
+    Missing labels: 0
+
+[PASS] Parsed data valid turn_index
+    Invalid turn_index rows: 0
+
+[PASS] Feature data required columns
+    All required columns exist.
+
+[PASS] Feature data row count
+    Feature rows: 1600
+
+[PASS] Feature data missing labels
+    Missing labels: 0
+
+[PASS] Feature data missing numeric values
+    Missing numeric feature values: 0
+
+[PASS] turn_count greater than 0
+    Invalid turn_count rows: 0
+
+[PASS] aggregate_num_urls non-negative
+    Invalid URL count rows: 0
+
+[PASS] aggregate_money_terms non-negative
+    Invalid money term count rows: 0
+
+[PASS] ratio_request_messages between 0 and 1
+    Invalid ratio rows: 0
+
+Feature Summary Statistics
+------------------------------
+       turn_count  aggregate_num_urls  aggregate_money_terms  ratio_request_messages
+count  1600.00000         1600.000000            1600.000000             1600.000000
+mean     13.68125            0.006875               3.183125                0.580317
+std       4.34830            0.082656               4.817842                0.142370
+min       6.00000            0.000000               0.000000                0.125000
+25%      10.00000            0.000000               0.000000                0.500000
+50%      13.00000            0.000000               1.000000                0.590909
+75%      17.00000            0.000000               4.000000                0.666667
+max      28.00000            1.000000              27.000000                1.000000
+
+Label Distribution
+------------------------------
+thread_label
+1    800
+0    800
