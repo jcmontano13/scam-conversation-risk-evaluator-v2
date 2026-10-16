@@ -40,8 +40,8 @@ Progress is tracked as user stories on the [COMP903 project board](https://githu
 
 | Sprint | Dates | Focus | Status |
 |---|---|---|---|
-| Sprint 0 | 13 Oct to 17 Oct 2026 | Repository setup, config, README, research proposal | In progress |
-| Sprint 1 | 18 Oct to 23 Oct 2026 | Five-model baseline cross-validation and unit tests | Pending |
+| Sprint 0 | 13 Oct to 17 Oct 2026 | Repository setup, config, README, research proposal | Complete |
+| Sprint 1 | 18 Oct to 23 Oct 2026 | Five-model baseline cross-validation and unit tests | In progress |
 | Sprint 2 | 24 Oct to 30 Oct 2026 | Grid search, repeated cross-validation, Progress Report 1 | Pending |
 | Sprint 3 | 31 Oct to 6 Nov 2026 | Significance tests, held-out test evaluation, calibration | Pending |
 | Sprint 4 | 7 Nov to 13 Nov 2026 | Ablation, interpretability, Progress Report 2 | Pending |
