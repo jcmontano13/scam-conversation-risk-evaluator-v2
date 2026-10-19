@@ -244,6 +244,20 @@ Expected outputs:
 outputs/reports/cv_summary_report_five_models.md
 ```
 
+### 10. Model Registry Unit Tests
+
+Checks the five model definitions, scaling, seeds and settings in `model_registry.py`:
+
+```text
+pytest tests/test_model_registry.py -v
+```
+
+Expected outputs:
+
+```text
+outputs/reports/unit_test_log_models.txt
+```
+
 ### Planned Steps
 
 The following steps are added as their user stories are completed:
