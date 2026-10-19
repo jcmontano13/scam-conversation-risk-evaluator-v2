@@ -48,6 +48,9 @@ Progress is tracked as user stories on the [COMP903 project board](https://githu
 | Sprint 5 | 14 Nov to 20 Nov 2026 | Figures, internal freeze checklist, README sync | Pending |
 | Sprint 6 | 21 Nov to 27 Nov 2026 | Final report and submission | Pending |
 
+
+Problems, resolutions and design decisions are recorded in the [Challenges and Decisions Log](docs/challenges_log.md).
+
 ## Feature Set
 
 The four engineered features from COMP902 are used unchanged:
@@ -277,6 +280,8 @@ The following steps are added as their user stories are completed:
 The original COMP902 modelling scripts (baseline cross-validation, grid search, held-out test evaluation, calibration, ablation, interpretability and figures) are kept unchanged in `src/` so the COMP902 results can still be reproduced. Their run commands are documented in the [COMP902 README](https://github.com/jcmontano13/scam-conversation-risk-evaluator).
 
 ## Generated Outputs
+
+docs/challenges_log.md
 
 ### Processed Data
 
