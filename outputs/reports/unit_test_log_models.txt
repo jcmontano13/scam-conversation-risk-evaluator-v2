@@ -1,0 +1,22 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.14.0, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\admin\Projects\scam-conversation-risk-evaluator-v2\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\admin\Projects\scam-conversation-risk-evaluator-v2
+plugins: anyio-4.14.1
+collecting ... collected 13 items
+
+tests/test_model_registry.py::test_five_models_are_returned_in_config_order PASSED [  7%]
+tests/test_model_registry.py::test_every_model_is_a_pipeline_ending_in_model_step PASSED [ 15%]
+tests/test_model_registry.py::test_each_model_uses_the_expected_estimator PASSED [ 23%]
+tests/test_model_registry.py::test_logistic_regression_and_knn_are_scaled PASSED [ 30%]
+tests/test_model_registry.py::test_tree_and_probabilistic_models_are_not_scaled PASSED [ 38%]
+tests/test_model_registry.py::test_models_with_randomness_use_project_seed PASSED [ 46%]
+tests/test_model_registry.py::test_logistic_regression_matches_comp902_settings PASSED [ 53%]
+tests/test_model_registry.py::test_random_forest_gives_identical_results_when_rerun PASSED [ 61%]
+tests/test_model_registry.py::test_scaler_is_fitted_on_training_rows_only PASSED [ 69%]
+tests/test_model_registry.py::test_tuned_settings_are_applied_in_both_key_formats PASSED [ 76%]
+tests/test_model_registry.py::test_settings_for_one_model_do_not_change_the_others PASSED [ 84%]
+tests/test_model_registry.py::test_unknown_model_names_are_rejected PASSED [ 92%]
+tests/test_model_registry.py::test_each_call_returns_new_untrained_models PASSED [100%]
+
+============================= 13 passed in 4.57s ==============================
