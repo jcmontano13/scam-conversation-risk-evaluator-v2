@@ -216,13 +216,26 @@ Expected outputs:
 Test results printed in the terminal
 ```
 
+### 8. Five-Model Cross-Validation
+
+Runs stratified 5-fold cross-validation for all five models on the training set:
+
+```text
+python src/models/train_five_models.py
+```
+
+Expected outputs:
+
+```text
+outputs/reports/cv_results_five_models.csv
+```
+
 ### Planned Steps
 
 The following steps are added as their user stories are completed:
 
 | Step | Script | User story sprint |
 |---|---|---|
-| Five-model cross-validation | `src/models/train_five_models.py` | Sprint 1 |
 | Cross-validation summary report | `src/evaluation/generate_cv_summary_report_five_models.py` | Sprint 1 |
 | Grid search for five models | `src/models/tune_five_models.py` | Sprint 2 |
 | Repeated cross-validation | `src/models/repeated_cv_five_models.py` | Sprint 2 |
