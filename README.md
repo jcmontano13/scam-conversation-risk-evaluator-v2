@@ -230,13 +230,26 @@ Expected outputs:
 outputs/reports/cv_results_five_models.csv
 ```
 
+### 9. Five-Model Cross-Validation Summary Report
+
+Generates a readable summary of the five-model cross-validation results:
+
+```text
+python src/evaluation/generate_cv_summary_report_five_models.py
+```
+
+Expected outputs:
+
+```text
+outputs/reports/cv_summary_report_five_models.md
+```
+
 ### Planned Steps
 
 The following steps are added as their user stories are completed:
 
 | Step | Script | User story sprint |
 |---|---|---|
-| Cross-validation summary report | `src/evaluation/generate_cv_summary_report_five_models.py` | Sprint 1 |
 | Grid search for five models | `src/models/tune_five_models.py` | Sprint 2 |
 | Repeated cross-validation | `src/models/repeated_cv_five_models.py` | Sprint 2 |
 | Significance tests | `src/evaluation/significance_tests.py` | Sprint 3 |
