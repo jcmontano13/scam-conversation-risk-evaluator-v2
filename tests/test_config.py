@@ -56,3 +56,8 @@ def test_output_paths_are_unique():
 def test_output_paths_are_inside_project():
     for name, path in get_output_paths().items():
         assert PROJECT_ROOT in path.parents, f"{name} is outside the project folder"
+
+
+
+def test_repeated_cv_seed_differs_from_tuning_seed():
+    assert config.REPEATED_CV_SEED != config.SEED

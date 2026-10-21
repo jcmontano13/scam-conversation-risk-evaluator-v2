@@ -109,3 +109,8 @@ INTERPRETABILITY_REPORT_FIVE_MODELS = REPORTS_DIR / "interpretability_report_fiv
 
 # Project documentation
 CHALLENGES_LOG = DOCS_DIR / "challenges_log.md"
+
+
+# Repeated cross-validation uses its own seed so its folds are different from
+# the folds used for grid search (with SEED, its first repeat would reuse them).
+REPEATED_CV_SEED = SEED + 1
