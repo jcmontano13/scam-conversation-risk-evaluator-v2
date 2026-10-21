@@ -1,0 +1,123 @@
+{
+    "generated_at": "2026-10-22T01:00:01",
+    "selection_metric": "f1",
+    "cv_strategy": "Stratified 5-fold cross-validation, random_state=42",
+    "held_out_test_used": false,
+    "selected_models": {
+        "Logistic Regression": {
+            "grid_size": 20,
+            "best_params": {
+                "model__C": 0.1,
+                "model__class_weight": null,
+                "model__l1_ratio": 1.0,
+                "model__solver": "liblinear"
+            },
+            "best_f1": 0.8885283875929311,
+            "metrics": {
+                "accuracy_mean": 0.89375,
+                "accuracy_std": 0.0222895978401361,
+                "precision_mean": 0.9299876407949202,
+                "precision_std": 0.010677326698831601,
+                "recall_mean": 0.8515625,
+                "recall_std": 0.043357615392223776,
+                "f1_mean": 0.8885283875929311,
+                "f1_std": 0.02555709517342653,
+                "roc_auc_mean": 0.947711181640625,
+                "roc_auc_std": 0.014694454393171144
+            },
+            "untuned_f1": 0.8841331523157716,
+            "f1_change_from_tuning": 0.004395235277159459
+        },
+        "Decision Tree": {
+            "grid_size": 24,
+            "best_params": {
+                "model__criterion": "entropy",
+                "model__max_depth": null,
+                "model__min_samples_leaf": 10
+            },
+            "best_f1": 0.8959714533992532,
+            "metrics": {
+                "accuracy_mean": 0.9015625,
+                "accuracy_std": 0.014277864751950833,
+                "precision_mean": 0.9477667441005687,
+                "precision_std": 0.007294386983687622,
+                "recall_mean": 0.85,
+                "recall_std": 0.02855572950390167,
+                "f1_mean": 0.8959714533992532,
+                "f1_std": 0.016530611435565633,
+                "roc_auc_mean": 0.95089111328125,
+                "roc_auc_std": 0.014874111044791466
+            },
+            "untuned_f1": 0.8636752499232723,
+            "f1_change_from_tuning": 0.032296203475980945
+        },
+        "Gaussian Naive Bayes": {
+            "grid_size": 20,
+            "best_params": {
+                "model__var_smoothing": 0.0006951927961775591
+            },
+            "best_f1": 0.8815373026221355,
+            "metrics": {
+                "accuracy_mean": 0.88828125,
+                "accuracy_std": 0.024902152266420667,
+                "precision_mean": 0.9349954961500936,
+                "precision_std": 0.01819076613452055,
+                "recall_mean": 0.834375,
+                "recall_std": 0.03871722404176209,
+                "f1_mean": 0.8815373026221355,
+                "f1_std": 0.02764813836371973,
+                "roc_auc_mean": 0.945135498046875,
+                "roc_auc_std": 0.01294678390419319
+            },
+            "untuned_f1": 0.8783384608034457,
+            "f1_change_from_tuning": 0.0031988418186897905
+        },
+        "Random Forest": {
+            "grid_size": 24,
+            "best_params": {
+                "model__max_depth": 5,
+                "model__max_features": "sqrt",
+                "model__min_samples_leaf": 5,
+                "model__n_estimators": 300
+            },
+            "best_f1": 0.8942364418938308,
+            "metrics": {
+                "accuracy_mean": 0.9,
+                "accuracy_std": 0.01875,
+                "precision_mean": 0.9460146757937811,
+                "precision_std": 0.012292713438103953,
+                "recall_mean": 0.8484375,
+                "recall_std": 0.03444594950788844,
+                "f1_mean": 0.8942364418938308,
+                "f1_std": 0.021256224086257297,
+                "roc_auc_mean": 0.955047607421875,
+                "roc_auc_std": 0.013482871859193576
+            },
+            "untuned_f1": 0.8833561517974504,
+            "f1_change_from_tuning": 0.010880290096380363
+        },
+        "k-Nearest Neighbours": {
+            "grid_size": 24,
+            "best_params": {
+                "model__n_neighbors": 21,
+                "model__p": 1,
+                "model__weights": "uniform"
+            },
+            "best_f1": 0.8932625699298626,
+            "metrics": {
+                "accuracy_mean": 0.9,
+                "accuracy_std": 0.020161699844631155,
+                "precision_mean": 0.9538106327411805,
+                "precision_std": 0.0089554106160255,
+                "recall_mean": 0.840625,
+                "recall_std": 0.03782412011534439,
+                "f1_mean": 0.8932625699298626,
+                "f1_std": 0.02320434254068719,
+                "roc_auc_mean": 0.95689697265625,
+                "roc_auc_std": 0.011938991418513824
+            },
+            "untuned_f1": 0.8552831044546181,
+            "f1_change_from_tuning": 0.037979465475244556
+        }
+    }
+}

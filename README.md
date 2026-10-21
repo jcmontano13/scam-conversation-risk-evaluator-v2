@@ -260,6 +260,20 @@ Expected outputs:
 ```text
 outputs/reports/unit_test_log_models.txt
 ```
+### 11. Grid Search for Five Models
+
+Tunes each model on the training set using grids of similar size (20 to 24 combinations), selected by F1:
+
+```text
+python src/models/tune_five_models.py
+```
+
+Expected outputs:
+
+```text
+outputs/reports/grid_search_results_five_models.csv
+outputs/reports/selected_hyperparams_five_models.json
+```
 
 ### Planned Steps
 
@@ -267,7 +281,6 @@ The following steps are added as their user stories are completed:
 
 | Step | Script | User story sprint |
 |---|---|---|
-| Grid search for five models | `src/models/tune_five_models.py` | Sprint 2 |
 | Repeated cross-validation | `src/models/repeated_cv_five_models.py` | Sprint 2 |
 | Significance tests | `src/evaluation/significance_tests.py` | Sprint 3 |
 | Held-out test evaluation | `src/evaluation/evaluate_test_set_five_models.py` | Sprint 3 |
