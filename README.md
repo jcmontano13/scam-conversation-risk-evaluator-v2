@@ -275,13 +275,26 @@ outputs/reports/grid_search_results_five_models.csv
 outputs/reports/selected_hyperparams_five_models.json
 ```
 
+### 12. Repeated Cross-Validation
+
+Scores the five tuned models on the same 50 folds (10 repeats x 5 folds), using a separate seed from grid search:
+
+```text
+python src/models/repeated_cv_five_models.py
+```
+
+Expected outputs:
+
+```text
+outputs/reports/repeated_cv_results.csv
+```
+
 ### Planned Steps
 
 The following steps are added as their user stories are completed:
 
 | Step | Script | User story sprint |
 |---|---|---|
-| Repeated cross-validation | `src/models/repeated_cv_five_models.py` | Sprint 2 |
 | Significance tests | `src/evaluation/significance_tests.py` | Sprint 3 |
 | Held-out test evaluation | `src/evaluation/evaluate_test_set_five_models.py` | Sprint 3 |
 | Calibration | `src/evaluation/calibration_five_models.py` | Sprint 3 |
