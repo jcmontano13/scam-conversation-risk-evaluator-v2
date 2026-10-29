@@ -114,3 +114,8 @@ CHALLENGES_LOG = DOCS_DIR / "challenges_log.md"
 # Repeated cross-validation uses its own seed so its folds are different from
 # the folds used for grid search (with SEED, its first repeat would reuse them).
 REPEATED_CV_SEED = SEED + 1
+
+
+
+# Held-out test predictions (one row per test conversation, all five models)
+TEST_PREDICTIONS_FIVE_MODELS = REPORTS_DIR / "test_predictions_five_models.csv"
