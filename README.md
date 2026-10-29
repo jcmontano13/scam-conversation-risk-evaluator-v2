@@ -321,13 +321,29 @@ outputs/reports/test_predictions_five_models.csv
 outputs/reports/test_evaluation_report_five_models.md
 ```
 
+### 15. Calibration
+
+Compares uncalibrated, sigmoid and isotonic probabilities for all five models on the 50 repeated cross-validation folds, tests calibrated models against Logistic Regression, and re-checks the COMP902 risk bands:
+
+```text
+python src/evaluation/calibration_five_models.py
+```
+
+Expected outputs:
+
+```text
+outputs/reports/calibration_fold_results_five_models.csv
+outputs/reports/calibration_results_five_models.csv
+outputs/reports/risk_band_check_five_models.csv
+outputs/reports/calibration_report_five_models.md
+```
+
 ### Planned Steps
 
 The following steps are added as their user stories are completed:
 
 | Step | Script | User story sprint |
 |---|---|---|
-| Calibration | `src/evaluation/calibration_five_models.py` | Sprint 3 |
 | Ablation | `src/evaluation/ablation_five_models.py` | Sprint 4 |
 | Interpretability | `src/evaluation/interpretability_five_models.py` | Sprint 4 |
 

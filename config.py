@@ -119,3 +119,12 @@ REPEATED_CV_SEED = SEED + 1
 
 # Held-out test predictions (one row per test conversation, all five models)
 TEST_PREDICTIONS_FIVE_MODELS = REPORTS_DIR / "test_predictions_five_models.csv"
+
+
+
+# Calibration: per-fold results and the risk band re-check
+CALIBRATION_FOLD_RESULTS = REPORTS_DIR / "calibration_fold_results_five_models.csv"
+RISK_BAND_CHECK = REPORTS_DIR / "risk_band_check_five_models.csv"
+
+# COMP902 proposed risk bands (Logistic Regression + isotonic calibration)
+COMP902_RISK_THRESHOLDS = {"medium": 0.26, "high": 0.54}

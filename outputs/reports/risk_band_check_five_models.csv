@@ -1,0 +1,4 @@
+risk_band,probability_range,conversations,scams,scam_rate
+Low,0.00 to 0.26,569,54,0.09490333919156414
+Medium,0.26 to 0.54,140,49,0.35
+High,0.54 to 1.00,571,537,0.9404553415061296
