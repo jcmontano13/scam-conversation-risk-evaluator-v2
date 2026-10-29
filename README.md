@@ -288,6 +288,22 @@ Expected outputs:
 ```text
 outputs/reports/repeated_cv_results.csv
 ```
+### 13. Significance Tests
+
+Compares each new model with Logistic Regression on F1 and Brier score using the corrected resampled t-test and Holm correction:
+
+```text
+pytest tests/test_significance.py -v
+python src/evaluation/significance_tests.py
+```
+
+Expected outputs:
+
+```text
+outputs/reports/significance_tests.csv
+outputs/reports/significance_report.md
+```
+
 
 ### Planned Steps
 
