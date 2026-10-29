@@ -304,6 +304,22 @@ outputs/reports/significance_tests.csv
 outputs/reports/significance_report.md
 ```
 
+### 14. Held-Out Test Evaluation
+
+Trains each tuned model on the full training set and evaluates it once on the held-out test set, with McNemar's test against Logistic Regression:
+
+```text
+python src/evaluation/evaluate_test_set_five_models.py
+```
+
+Expected outputs:
+
+```text
+outputs/reports/test_results_five_models.csv
+outputs/reports/mcnemar_results.csv
+outputs/reports/test_predictions_five_models.csv
+outputs/reports/test_evaluation_report_five_models.md
+```
 
 ### Planned Steps
 
@@ -311,8 +327,6 @@ The following steps are added as their user stories are completed:
 
 | Step | Script | User story sprint |
 |---|---|---|
-| Significance tests | `src/evaluation/significance_tests.py` | Sprint 3 |
-| Held-out test evaluation | `src/evaluation/evaluate_test_set_five_models.py` | Sprint 3 |
 | Calibration | `src/evaluation/calibration_five_models.py` | Sprint 3 |
 | Ablation | `src/evaluation/ablation_five_models.py` | Sprint 4 |
 | Interpretability | `src/evaluation/interpretability_five_models.py` | Sprint 4 |

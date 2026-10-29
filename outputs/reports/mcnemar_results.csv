@@ -1,0 +1,4 @@
+model,reference_model,both_correct,both_wrong,only_reference_correct,only_model_correct,p_value,p_value_holm,significant
+Gaussian Naive Bayes,Logistic Regression,272,26,15,7,0.13380050659179688,0.4014015197753906,False
+Random Forest,Logistic Regression,278,27,9,6,0.6072387695312499,1.0,False
+k-Nearest Neighbours,Logistic Regression,279,27,8,6,0.79052734375,1.0,False
