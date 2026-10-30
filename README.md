@@ -338,13 +338,28 @@ outputs/reports/risk_band_check_five_models.csv
 outputs/reports/calibration_report_five_models.md
 ```
 
+### 16. Ablation for Five Models
+
+Removes one feature at a time for each tuned model on the 50 repeated cross-validation folds and checks whether the COMP902 feature ranking holds (RQ3):
+
+```text
+python src/evaluation/ablation_five_models.py
+```
+
+Expected outputs:
+
+```text
+outputs/reports/ablation_fold_results_five_models.csv
+outputs/reports/ablation_results_five_models.csv
+outputs/reports/ablation_report_five_models.md
+```
+
 ### Planned Steps
 
 The following steps are added as their user stories are completed:
 
 | Step | Script | User story sprint |
 |---|---|---|
-| Ablation | `src/evaluation/ablation_five_models.py` | Sprint 4 |
 | Interpretability | `src/evaluation/interpretability_five_models.py` | Sprint 4 |
 
 ## COMP902 Scripts
