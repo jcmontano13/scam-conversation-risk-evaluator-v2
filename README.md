@@ -353,14 +353,23 @@ outputs/reports/ablation_fold_results_five_models.csv
 outputs/reports/ablation_results_five_models.csv
 outputs/reports/ablation_report_five_models.md
 ```
+### 17. Interpretability for the New Models
 
-### Planned Steps
+Produces Random Forest feature importance, Gaussian Naive Bayes class statistics and k-Nearest Neighbours worked examples:
 
-The following steps are added as their user stories are completed:
+```text
+python src/evaluation/interpretability_five_models.py
+```
 
-| Step | Script | User story sprint |
-|---|---|---|
-| Interpretability | `src/evaluation/interpretability_five_models.py` | Sprint 4 |
+Expected outputs:
+
+```text
+outputs/reports/rf_feature_importance.csv
+outputs/reports/nb_class_statistics.csv
+outputs/reports/knn_neighbour_examples.csv
+outputs/reports/interpretability_report_five_models.md
+```
+
 
 ## COMP902 Scripts
 

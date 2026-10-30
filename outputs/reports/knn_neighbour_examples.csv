@@ -1,0 +1,5 @@
+example,thread_id,type,true_label,neighbours_voting_scam,neighbours,predicted_label,neighbour_types,turn_count (conversation),turn_count (neighbour mean),aggregate_num_urls (conversation),aggregate_num_urls (neighbour mean),aggregate_money_terms (conversation),aggregate_money_terms (neighbour mean),ratio_request_messages (conversation),ratio_request_messages (neighbour mean)
+Confident correct scam,thread_000011,ssn,scam,21,21,scam,"ssn 20, support 1",17,16.381,0,0.0,0,0.476,0.7647058823529411,0.747
+Confident correct non-scam,thread_000803,delivery,non-scam,0,21,non-scam,"insurance 14, telemarketing 4, delivery 3",11,11.0,0,0.0,0,0.286,0.6363636363636364,0.636
+Most borderline case,thread_000012,ssn,scam,10,21,non-scam,"insurance 8, reward 5, ssn 5, telemarketing 3",11,10.857,0,0.0,3,2.238,0.7272727272727273,0.723
+Missed tech support scam,thread_000483,support,scam,1,21,non-scam,"wrong 20, support 1",8,8.0,0,0.0,0,0.0,0.25,0.25
