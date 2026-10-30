@@ -370,6 +370,20 @@ outputs/reports/knn_neighbour_examples.csv
 outputs/reports/interpretability_report_five_models.md
 ```
 
+### 18. Leave-One-Scam-Type-Out (Extension)
+
+Tests whether each model can detect a scam type it never saw in training, compared with a control in which the type is seen:
+
+```text
+python src/evaluation/leave_one_type_out.py
+```
+
+Expected outputs:
+
+```text
+outputs/reports/leave_one_type_out_results.csv
+outputs/reports/leave_one_type_out_report.md
+```
 
 ## COMP902 Scripts
 
