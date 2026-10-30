@@ -128,3 +128,15 @@ RISK_BAND_CHECK = REPORTS_DIR / "risk_band_check_five_models.csv"
 
 # COMP902 proposed risk bands (Logistic Regression + isotonic calibration)
 COMP902_RISK_THRESHOLDS = {"medium": 0.26, "high": 0.54}
+
+
+# Ablation: per-fold results
+ABLATION_FOLD_RESULTS = REPORTS_DIR / "ablation_fold_results_five_models.csv"
+
+# COMP902 feature ranking (ablation, Logistic Regression and Decision Tree)
+COMP902_FEATURE_RANKING = [
+    "turn_count",
+    "aggregate_money_terms",
+    "ratio_request_messages",
+    "aggregate_num_urls",
+]
