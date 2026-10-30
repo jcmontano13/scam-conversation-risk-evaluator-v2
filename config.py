@@ -140,3 +140,9 @@ COMP902_FEATURE_RANKING = [
     "ratio_request_messages",
     "aggregate_num_urls",
 ]
+
+
+# Extension (story 18): leave-one-scam-type-out generalisation test
+LOTO_RESULTS = REPORTS_DIR / "leave_one_type_out_results.csv"
+LOTO_REPORT = REPORTS_DIR / "leave_one_type_out_report.md"
+LOTO_CONTROL_REPEATS = 10
