@@ -407,6 +407,26 @@ following the COMP902 convention.
 Run: `python src/reporting/generate_five_model_figures.py`
 Output: `outputs/figures/`
 
+### 20. Internal Freeze Checklist
+
+Script: `src/validation/internal_freeze_check.py`
+
+Runs an automated freeze checklist before final report writing. Unlike the hand-written
+COMP902 checklist, every "complete" status is backed by a check:
+
+- Completeness: every expected output file exists and is not empty
+- Consistency: test metrics recompute from saved predictions; significance results match
+  the repeated-CV folds; Holm correction, calibration selection, ablation and
+  leave-one-type-out results are complete and correct
+- Integrity: test rows never appear in training; the repeated-CV seed differs from the
+  tuning seed; figures are newer than their inputs; unit tests pass
+
+It also records the frozen headline numbers for the final report and the manual checks.
+
+Run: `python src/validation/internal_freeze_check.py`
+Output: `outputs/reports/internal_freeze_checklist_five_models.md`
+Freeze tag: `freeze-v1`
+
 ## COMP902 Scripts
 
 The original COMP902 modelling scripts (baseline cross-validation, grid search, held-out test evaluation, calibration, ablation, interpretability and figures) are kept unchanged in `src/` so the COMP902 results can still be reproduced. Their run commands are documented in the [COMP902 README](https://github.com/jcmontano13/scam-conversation-risk-evaluator).
