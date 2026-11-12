@@ -1,0 +1,11 @@
+Figure: ROC curves on the held-out test set (320 conversations)
+
+Grey line in each panel = Logistic Regression, for reference.
+
+Logistic Regression: AUC 0.9594
+Decision Tree: AUC 0.9415
+Gaussian Naive Bayes: AUC 0.9503
+Random Forest: AUC 0.9558
+k-Nearest Neighbours: AUC 0.9488
+
+Generated at: 2026-11-13T02:33:45

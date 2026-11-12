@@ -385,6 +385,28 @@ outputs/reports/leave_one_type_out_results.csv
 outputs/reports/leave_one_type_out_report.md
 ```
 
+### 19. Figures for Five Models
+
+Script: `src/reporting/generate_five_model_figures.py`
+
+Creates the figures for the final report and presentation from the saved result files
+of stories 13 to 18. No model is retrained, so the figures always match the reported
+numbers. Each figure is saved with a summary text file (and a points CSV for curves),
+following the COMP902 convention.
+
+| Figure | Supports |
+|---|---|
+| model_comparison_significance.png | RQ1 and RQ2: difference from Logistic Regression with 95% CI |
+| test_confusion_matrices.png | Held-out test: missed scams and false alarms |
+| roc_curves_test_set.png / precision_recall_curves_test_set.png | Held-out test: ranking quality |
+| reliability_curves_test_set.png | RQ2: probability reliability on unseen data |
+| calibration_brier_comparison.png | RQ2: Brier score before and after calibration |
+| ablation_f1_drop_heatmap.png | RQ3: feature reliance per model |
+| generalisation_recall.png | Extension: recall on seen vs never-seen scam types |
+
+Run: `python src/reporting/generate_five_model_figures.py`
+Output: `outputs/figures/`
+
 ## COMP902 Scripts
 
 The original COMP902 modelling scripts (baseline cross-validation, grid search, held-out test evaluation, calibration, ablation, interpretability and figures) are kept unchanged in `src/` so the COMP902 results can still be reproduced. Their run commands are documented in the [COMP902 README](https://github.com/jcmontano13/scam-conversation-risk-evaluator).

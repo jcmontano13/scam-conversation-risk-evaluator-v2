@@ -1,0 +1,9 @@
+Figure: Confusion matrices on the held-out test set (320 conversations)
+
+Logistic Regression: TN 151.0, FP (false alarms) 9.0, FN (missed scams) 24.0, TP 136.0
+Decision Tree: TN 154.0, FP (false alarms) 6.0, FN (missed scams) 29.0, TP 131.0
+Gaussian Naive Bayes: TN 150.0, FP (false alarms) 10.0, FN (missed scams) 31.0, TP 129.0
+Random Forest: TN 153.0, FP (false alarms) 7.0, FN (missed scams) 29.0, TP 131.0
+k-Nearest Neighbours: TN 155.0, FP (false alarms) 5.0, FN (missed scams) 30.0, TP 130.0
+
+Generated at: 2026-11-13T02:33:44

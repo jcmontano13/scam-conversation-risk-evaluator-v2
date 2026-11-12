@@ -1,0 +1,11 @@
+Figure: Precision-recall curves on the held-out test set (320 conversations)
+
+Grey line in each panel = Logistic Regression, for reference.
+
+Logistic Regression: average precision 0.9674
+Decision Tree: average precision 0.9551
+Gaussian Naive Bayes: average precision 0.9588
+Random Forest: average precision 0.9665
+k-Nearest Neighbours: average precision 0.9594
+
+Generated at: 2026-11-13T02:33:46
