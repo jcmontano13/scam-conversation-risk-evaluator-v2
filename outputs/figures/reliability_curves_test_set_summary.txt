@@ -1,0 +1,12 @@
+Figure: Reliability curves on the held-out test set (tuned models, before calibration)
+
+Conversations are grouped into 5 bins of equal size by predicted probability.
+Points on the diagonal mean the predicted probability matches the actual scam rate.
+
+Logistic Regression: largest gap from the diagonal 0.103
+Decision Tree: largest gap from the diagonal 0.072
+Gaussian Naive Bayes: largest gap from the diagonal 0.195
+Random Forest: largest gap from the diagonal 0.047
+k-Nearest Neighbours: largest gap from the diagonal 0.061
+
+Generated at: 2026-11-13T02:33:47

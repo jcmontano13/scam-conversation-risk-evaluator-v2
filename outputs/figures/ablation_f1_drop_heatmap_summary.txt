@@ -1,0 +1,9 @@
+Figure: Drop in F1 when each feature is removed (ablation, repeated cross-validation)
+
+Logistic Regression: turn_count +0.1227, aggregate_money_terms +0.0398, ratio_request_messages +0.0094, aggregate_num_urls -0.0001
+Decision Tree: turn_count +0.1049, aggregate_money_terms +0.0515, ratio_request_messages +0.0108, aggregate_num_urls +0.0000
+Gaussian Naive Bayes: turn_count +0.1509, aggregate_money_terms +0.0446, ratio_request_messages +0.0035, aggregate_num_urls -0.0041
+Random Forest: turn_count +0.1353, aggregate_money_terms +0.0555, ratio_request_messages +0.0109, aggregate_num_urls -0.0005
+k-Nearest Neighbours: turn_count +0.1372, aggregate_money_terms +0.0549, ratio_request_messages +0.0509, aggregate_num_urls +0.0003
+
+Generated at: 2026-11-13T02:33:48

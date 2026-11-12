@@ -1,0 +1,26 @@
+Figure: Recall on each scam type when seen in training (control) and when never seen
+
+Grey = seen (control); blue = never seen. Training split only.
+
+refund | Logistic Regression: seen 0.973, unseen 0.981, gap -0.009
+refund | Decision Tree: seen 0.993, unseen 0.994, gap -0.001
+refund | Gaussian Naive Bayes: seen 0.993, unseen 0.994, gap -0.001
+refund | Random Forest: seen 0.993, unseen 0.994, gap -0.001
+refund | k-Nearest Neighbours: seen 0.977, unseen 0.994, gap -0.017
+reward | Logistic Regression: seen 0.903, unseen 0.851, gap +0.053
+reward | Decision Tree: seen 0.871, unseen 0.770, gap +0.101
+reward | Gaussian Naive Bayes: seen 0.943, unseen 0.944, gap -0.001
+reward | Random Forest: seen 0.884, unseen 0.820, gap +0.064
+reward | k-Nearest Neighbours: seen 0.851, unseen 0.783, gap +0.069
+ssn | Logistic Regression: seen 0.854, unseen 0.795, gap +0.059
+ssn | Decision Tree: seen 0.824, unseen 0.724, gap +0.099
+ssn | Gaussian Naive Bayes: seen 0.753, unseen 0.724, gap +0.029
+ssn | Random Forest: seen 0.818, unseen 0.724, gap +0.094
+ssn | k-Nearest Neighbours: seen 0.824, unseen 0.667, gap +0.157
+support | Logistic Regression: seen 0.623, unseen 0.484, gap +0.139
+support | Decision Tree: seen 0.631, unseen 0.503, gap +0.128
+support | Gaussian Naive Bayes: seen 0.621, unseen 0.609, gap +0.012
+support | Random Forest: seen 0.616, unseen 0.584, gap +0.032
+support | k-Nearest Neighbours: seen 0.603, unseen 0.497, gap +0.106
+
+Generated at: 2026-11-13T02:33:49

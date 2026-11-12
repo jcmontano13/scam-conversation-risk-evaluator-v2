@@ -1,0 +1,11 @@
+Figure: Brier score before and after calibration (repeated cross-validation, training set)
+
+Lower is better. Grey = uncalibrated; blue = selected calibration method.
+
+Logistic Regression: uncalibrated 0.0844 -> isotonic 0.0827 (change -0.0018)
+Decision Tree: uncalibrated 0.0821 -> isotonic 0.0802 (change -0.0018)
+Gaussian Naive Bayes: uncalibrated 0.0925 -> isotonic 0.0861 (change -0.0063)
+Random Forest: uncalibrated 0.0788 -> isotonic 0.0787 (change -0.0001)
+k-Nearest Neighbours: uncalibrated 0.0778 -> isotonic 0.0774 (change -0.0004)
+
+Generated at: 2026-11-13T02:33:47

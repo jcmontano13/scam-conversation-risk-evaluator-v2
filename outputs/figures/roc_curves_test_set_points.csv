@@ -1,0 +1,342 @@
+model,x,y
+Logistic Regression,0.0,0.0
+Logistic Regression,0.0,0.00625
+Logistic Regression,0.0,0.14375
+Logistic Regression,0.0,0.15625
+Logistic Regression,0.0,0.3625
+Logistic Regression,0.0,0.375
+Logistic Regression,0.0,0.38125
+Logistic Regression,0.0,0.39375
+Logistic Regression,0.0,0.4
+Logistic Regression,0.0,0.4125
+Logistic Regression,0.0,0.61875
+Logistic Regression,0.0,0.63125
+Logistic Regression,0.0,0.7375
+Logistic Regression,0.00625,0.7375
+Logistic Regression,0.00625,0.74375
+Logistic Regression,0.0125,0.74375
+Logistic Regression,0.0125,0.75625
+Logistic Regression,0.025,0.75625
+Logistic Regression,0.025,0.775
+Logistic Regression,0.03125,0.78125
+Logistic Regression,0.03125,0.8
+Logistic Regression,0.04375,0.8125
+Logistic Regression,0.04375,0.825
+Logistic Regression,0.04375,0.83125
+Logistic Regression,0.05,0.83125
+Logistic Regression,0.05625,0.8375
+Logistic Regression,0.05625,0.85625
+Logistic Regression,0.0625,0.85625
+Logistic Regression,0.0625,0.86875
+Logistic Regression,0.075,0.875
+Logistic Regression,0.075,0.88125
+Logistic Regression,0.08125,0.88125
+Logistic Regression,0.08125,0.8875
+Logistic Regression,0.09375,0.8875
+Logistic Regression,0.09375,0.89375
+Logistic Regression,0.1125,0.89375
+Logistic Regression,0.13125,0.9
+Logistic Regression,0.14375,0.9125
+Logistic Regression,0.15,0.91875
+Logistic Regression,0.15625,0.91875
+Logistic Regression,0.1625,0.925
+Logistic Regression,0.16875,0.925
+Logistic Regression,0.18125,0.925
+Logistic Regression,0.1875,0.925
+Logistic Regression,0.1875,0.95
+Logistic Regression,0.2,0.95
+Logistic Regression,0.21875,0.95
+Logistic Regression,0.23125,0.95625
+Logistic Regression,0.25,0.95625
+Logistic Regression,0.25625,0.95625
+Logistic Regression,0.28125,0.95625
+Logistic Regression,0.2875,0.95625
+Logistic Regression,0.2875,0.9625
+Logistic Regression,0.3125,0.9625
+Logistic Regression,0.33125,0.9625
+Logistic Regression,0.34375,0.96875
+Logistic Regression,0.3625,0.96875
+Logistic Regression,0.4125,0.96875
+Logistic Regression,0.425,0.96875
+Logistic Regression,0.43125,0.96875
+Logistic Regression,0.4625,0.96875
+Logistic Regression,0.4875,0.96875
+Logistic Regression,0.49375,0.96875
+Logistic Regression,0.5125,0.96875
+Logistic Regression,0.525,0.96875
+Logistic Regression,0.53125,0.975
+Logistic Regression,0.54375,0.975
+Logistic Regression,0.55625,0.98125
+Logistic Regression,0.58125,0.98125
+Logistic Regression,0.60625,0.9875
+Logistic Regression,0.6125,0.9875
+Logistic Regression,0.625,0.99375
+Logistic Regression,0.65625,0.99375
+Logistic Regression,0.66875,0.99375
+Logistic Regression,0.69375,0.99375
+Logistic Regression,0.7,0.99375
+Logistic Regression,0.7125,0.99375
+Logistic Regression,0.74375,0.99375
+Logistic Regression,0.76875,0.99375
+Logistic Regression,0.78125,0.99375
+Logistic Regression,0.8125,1.0
+Logistic Regression,0.81875,1.0
+Logistic Regression,0.8875,1.0
+Logistic Regression,0.90625,1.0
+Logistic Regression,0.91875,1.0
+Logistic Regression,0.9625,1.0
+Logistic Regression,0.96875,1.0
+Logistic Regression,0.99375,1.0
+Logistic Regression,1.0,1.0
+Decision Tree,0.0,0.0
+Decision Tree,0.0,0.7
+Decision Tree,0.0,0.71875
+Decision Tree,0.01875,0.75
+Decision Tree,0.01875,0.75625
+Decision Tree,0.025,0.76875
+Decision Tree,0.025,0.79375
+Decision Tree,0.0375,0.81875
+Decision Tree,0.04375,0.8375
+Decision Tree,0.04375,0.84375
+Decision Tree,0.0625,0.85
+Decision Tree,0.06875,0.85625
+Decision Tree,0.09375,0.86875
+Decision Tree,0.09375,0.875
+Decision Tree,0.1375,0.9
+Decision Tree,0.2125,0.91875
+Decision Tree,0.225,0.925
+Decision Tree,0.24375,0.93125
+Decision Tree,0.28125,0.93125
+Decision Tree,0.3,0.9375
+Decision Tree,0.35,0.9375
+Decision Tree,0.3875,0.9375
+Decision Tree,0.4375,0.9375
+Decision Tree,0.45625,0.9375
+Decision Tree,0.4875,0.9375
+Decision Tree,0.49375,0.95
+Decision Tree,0.54375,0.95625
+Decision Tree,0.5875,0.9625
+Decision Tree,0.6125,0.96875
+Decision Tree,0.6375,0.96875
+Decision Tree,1.0,1.0
+Gaussian Naive Bayes,0.0,0.0
+Gaussian Naive Bayes,0.0,0.2375
+Gaussian Naive Bayes,0.0,0.2875
+Gaussian Naive Bayes,0.0,0.3
+Gaussian Naive Bayes,0.0,0.4625
+Gaussian Naive Bayes,0.0,0.475
+Gaussian Naive Bayes,0.0,0.5375
+Gaussian Naive Bayes,0.00625,0.5375
+Gaussian Naive Bayes,0.00625,0.55625
+Gaussian Naive Bayes,0.00625,0.56875
+Gaussian Naive Bayes,0.00625,0.63125
+Gaussian Naive Bayes,0.00625,0.64375
+Gaussian Naive Bayes,0.00625,0.6875
+Gaussian Naive Bayes,0.01875,0.6875
+Gaussian Naive Bayes,0.01875,0.725
+Gaussian Naive Bayes,0.025,0.725
+Gaussian Naive Bayes,0.025,0.7375
+Gaussian Naive Bayes,0.03125,0.7375
+Gaussian Naive Bayes,0.03125,0.7875
+Gaussian Naive Bayes,0.0375,0.7875
+Gaussian Naive Bayes,0.05,0.7875
+Gaussian Naive Bayes,0.05,0.79375
+Gaussian Naive Bayes,0.05625,0.79375
+Gaussian Naive Bayes,0.05625,0.8
+Gaussian Naive Bayes,0.0625,0.80625
+Gaussian Naive Bayes,0.0625,0.83125
+Gaussian Naive Bayes,0.06875,0.83125
+Gaussian Naive Bayes,0.06875,0.8375
+Gaussian Naive Bayes,0.075,0.8375
+Gaussian Naive Bayes,0.075,0.84375
+Gaussian Naive Bayes,0.08125,0.85
+Gaussian Naive Bayes,0.08125,0.8625
+Gaussian Naive Bayes,0.09375,0.8625
+Gaussian Naive Bayes,0.10625,0.86875
+Gaussian Naive Bayes,0.1125,0.86875
+Gaussian Naive Bayes,0.125,0.88125
+Gaussian Naive Bayes,0.13125,0.88125
+Gaussian Naive Bayes,0.13125,0.8875
+Gaussian Naive Bayes,0.14375,0.9
+Gaussian Naive Bayes,0.14375,0.90625
+Gaussian Naive Bayes,0.15,0.9125
+Gaussian Naive Bayes,0.1625,0.9125
+Gaussian Naive Bayes,0.1625,0.925
+Gaussian Naive Bayes,0.1875,0.925
+Gaussian Naive Bayes,0.20625,0.93125
+Gaussian Naive Bayes,0.2125,0.93125
+Gaussian Naive Bayes,0.2125,0.9375
+Gaussian Naive Bayes,0.21875,0.9375
+Gaussian Naive Bayes,0.23125,0.94375
+Gaussian Naive Bayes,0.2375,0.94375
+Gaussian Naive Bayes,0.2375,0.95
+Gaussian Naive Bayes,0.25,0.95
+Gaussian Naive Bayes,0.2625,0.95
+Gaussian Naive Bayes,0.26875,0.95625
+Gaussian Naive Bayes,0.28125,0.95625
+Gaussian Naive Bayes,0.30625,0.95625
+Gaussian Naive Bayes,0.31875,0.95625
+Gaussian Naive Bayes,0.3375,0.95625
+Gaussian Naive Bayes,0.35625,0.95625
+Gaussian Naive Bayes,0.3625,0.95625
+Gaussian Naive Bayes,0.375,0.95625
+Gaussian Naive Bayes,0.425,0.95625
+Gaussian Naive Bayes,0.425,0.9625
+Gaussian Naive Bayes,0.4375,0.9625
+Gaussian Naive Bayes,0.45625,0.9625
+Gaussian Naive Bayes,0.46875,0.96875
+Gaussian Naive Bayes,0.475,0.96875
+Gaussian Naive Bayes,0.50625,0.96875
+Gaussian Naive Bayes,0.525,0.96875
+Gaussian Naive Bayes,0.53125,0.96875
+Gaussian Naive Bayes,0.54375,0.975
+Gaussian Naive Bayes,0.55625,0.975
+Gaussian Naive Bayes,0.5625,0.98125
+Gaussian Naive Bayes,0.575,0.98125
+Gaussian Naive Bayes,0.5875,0.98125
+Gaussian Naive Bayes,0.6125,0.9875
+Gaussian Naive Bayes,0.625,0.9875
+Gaussian Naive Bayes,0.6375,0.99375
+Gaussian Naive Bayes,0.66875,0.99375
+Gaussian Naive Bayes,0.69375,0.99375
+Gaussian Naive Bayes,0.71875,0.99375
+Gaussian Naive Bayes,0.75,0.99375
+Gaussian Naive Bayes,0.7625,0.99375
+Gaussian Naive Bayes,0.83125,0.99375
+Gaussian Naive Bayes,0.85625,0.99375
+Gaussian Naive Bayes,0.8625,0.99375
+Gaussian Naive Bayes,0.89375,1.0
+Gaussian Naive Bayes,0.90625,1.0
+Gaussian Naive Bayes,0.95,1.0
+Gaussian Naive Bayes,0.96875,1.0
+Gaussian Naive Bayes,0.99375,1.0
+Gaussian Naive Bayes,1.0,1.0
+Random Forest,0.0,0.0
+Random Forest,0.0,0.025
+Random Forest,0.0,0.0375
+Random Forest,0.0,0.0625
+Random Forest,0.0,0.06875
+Random Forest,0.0,0.09375
+Random Forest,0.0,0.10625
+Random Forest,0.0,0.13125
+Random Forest,0.0,0.15
+Random Forest,0.0,0.15625
+Random Forest,0.0,0.16875
+Random Forest,0.0,0.2
+Random Forest,0.0,0.2125
+Random Forest,0.0,0.21875
+Random Forest,0.0,0.24375
+Random Forest,0.0,0.2625
+Random Forest,0.0,0.275
+Random Forest,0.0,0.2875
+Random Forest,0.0,0.3
+Random Forest,0.0,0.34375
+Random Forest,0.0,0.35625
+Random Forest,0.0,0.3625
+Random Forest,0.0,0.375
+Random Forest,0.0,0.39375
+Random Forest,0.0,0.40625
+Random Forest,0.0,0.43125
+Random Forest,0.0,0.44375
+Random Forest,0.0,0.475
+Random Forest,0.0,0.5
+Random Forest,0.0,0.6
+Random Forest,0.0,0.6125
+Random Forest,0.0,0.6375
+Random Forest,0.0,0.65625
+Random Forest,0.0,0.73125
+Random Forest,0.00625,0.73125
+Random Forest,0.00625,0.78125
+Random Forest,0.0125,0.78125
+Random Forest,0.01875,0.7875
+Random Forest,0.01875,0.8
+Random Forest,0.01875,0.80625
+Random Forest,0.025,0.80625
+Random Forest,0.025,0.8125
+Random Forest,0.0375,0.81875
+Random Forest,0.04375,0.81875
+Random Forest,0.04375,0.83125
+Random Forest,0.05,0.8375
+Random Forest,0.05,0.84375
+Random Forest,0.05625,0.84375
+Random Forest,0.05625,0.8625
+Random Forest,0.06875,0.875
+Random Forest,0.075,0.875
+Random Forest,0.075,0.88125
+Random Forest,0.0875,0.89375
+Random Forest,0.0875,0.9
+Random Forest,0.10625,0.9
+Random Forest,0.10625,0.90625
+Random Forest,0.1125,0.90625
+Random Forest,0.1125,0.9125
+Random Forest,0.125,0.9125
+Random Forest,0.125,0.91875
+Random Forest,0.1375,0.91875
+Random Forest,0.16875,0.91875
+Random Forest,0.16875,0.925
+Random Forest,0.175,0.925
+Random Forest,0.2125,0.925
+Random Forest,0.225,0.925
+Random Forest,0.23125,0.93125
+Random Forest,0.2375,0.93125
+Random Forest,0.2375,0.9375
+Random Forest,0.25625,0.94375
+Random Forest,0.2625,0.94375
+Random Forest,0.275,0.94375
+Random Forest,0.28125,0.94375
+Random Forest,0.2875,0.95
+Random Forest,0.31875,0.95
+Random Forest,0.325,0.95625
+Random Forest,0.35,0.95625
+Random Forest,0.3625,0.95625
+Random Forest,0.3875,0.95625
+Random Forest,0.39375,0.95625
+Random Forest,0.4125,0.95625
+Random Forest,0.425,0.95625
+Random Forest,0.4375,0.9625
+Random Forest,0.4875,0.9625
+Random Forest,0.5125,0.975
+Random Forest,0.51875,0.975
+Random Forest,0.54375,0.98125
+Random Forest,0.55,0.98125
+Random Forest,0.58125,0.98125
+Random Forest,0.6,0.98125
+Random Forest,0.60625,0.98125
+Random Forest,0.6375,0.98125
+Random Forest,0.65,0.98125
+Random Forest,0.65,0.9875
+Random Forest,0.66875,0.9875
+Random Forest,0.7,0.9875
+Random Forest,0.70625,0.9875
+Random Forest,0.71875,0.9875
+Random Forest,0.73125,0.99375
+Random Forest,0.7375,0.99375
+Random Forest,0.80625,0.99375
+Random Forest,0.85625,0.99375
+Random Forest,0.86875,0.99375
+Random Forest,0.89375,0.99375
+Random Forest,0.9125,0.99375
+Random Forest,0.94375,1.0
+Random Forest,0.95,1.0
+Random Forest,0.99375,1.0
+Random Forest,1.0,1.0
+k-Nearest Neighbours,0.0,0.0
+k-Nearest Neighbours,0.0,0.6
+k-Nearest Neighbours,0.0,0.675
+k-Nearest Neighbours,0.0,0.6875
+k-Nearest Neighbours,0.0,0.725
+k-Nearest Neighbours,0.0,0.7375
+k-Nearest Neighbours,0.00625,0.775
+k-Nearest Neighbours,0.00625,0.7875
+k-Nearest Neighbours,0.03125,0.8125
+k-Nearest Neighbours,0.05,0.84375
+k-Nearest Neighbours,0.075,0.86875
+k-Nearest Neighbours,0.0875,0.875
+k-Nearest Neighbours,0.13125,0.90625
+k-Nearest Neighbours,0.225,0.91875
+k-Nearest Neighbours,0.29375,0.94375
+k-Nearest Neighbours,0.375,0.95625
+k-Nearest Neighbours,0.5,0.9625
+k-Nearest Neighbours,0.61875,0.96875
+k-Nearest Neighbours,0.73125,0.98125
+k-Nearest Neighbours,1.0,1.0
