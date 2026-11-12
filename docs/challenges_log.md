@@ -17,6 +17,7 @@ It is the source for the "problems encountered" and "how problems were dealt wit
 | ID | Date | Story | Problem | Cause | Resolution | Evidence | Status |
 |---|---|---|---|---|---|---|---|
 | C1 | 2026-10-22 | Story 11 | Repeated cross-validation with the project seed (42) reproduced the exact 5 folds used by grid search as its first repeat. | Both splitters start from the same random seed, so the first repeat of RepeatedStratifiedKFold matches StratifiedKFold. | Added a separate evaluation seed (REPEATED_CV_SEED = 43) and a check that stops the script if any evaluation fold matches a tuning fold. | `config.py`, `src/models/repeated_cv_five_models.py`, `tests/test_config.py` | Resolved 2026-10-22 |
+| C2 | README | README check failed 4 of 6 checks: 16 COMP902 scripts and 16 COMP902 outputs undocumented, and no Quick Start, Dataset, Reproducibility or Results sections | Added the missing sections and listed every script and output; check_readme.py now passes all 6 checks | Story 22 |
 
 ## Decisions and Findings
 
@@ -44,3 +45,4 @@ It is the source for the "problems encountered" and "how problems were dealt wit
 | D20 | 2026-10-31 | Story 18 | Tech support scams were the hardest to detect both when seen (recall about 0.62) and when unseen (average 0.54). Refund scams were detected almost perfectly even when unseen (0.99). Gaussian Naive Bayes had the smallest generalisation gaps (0.00 to 0.03) and the highest unseen recall for reward and tech support scams; k-Nearest Neighbours had the largest gap on SSN scams (0.17). | Leave-one-scam-type-out on the training split. | Although the five models did not differ significantly in overall F1 (D11), they differed in how well they generalised to an unseen scam type. These gaps are descriptive and not significance-tested; each unseen result is based on about 160 conversations. | `leave_one_type_out_report.md` |
 | D21 | Figures | Figures are drawn only from saved result files, never by retraining | Guarantees every figure matches the numbers in the report tables; re-running cannot produce different figures | Story 20 |
 | D22 | Freeze | The freeze checklist is automated instead of hand-written as in COMP902 | A hand-written "Complete" relies on memory; the script recomputes and cross-checks results, so an inconsistent number blocks the freeze | Story 21 |
+| D23 | README | The README is checked by a script against the repository | A README goes out of date quietly; the checker found missing COMP902 output entries and a substring false match during this story | Story 22 |
